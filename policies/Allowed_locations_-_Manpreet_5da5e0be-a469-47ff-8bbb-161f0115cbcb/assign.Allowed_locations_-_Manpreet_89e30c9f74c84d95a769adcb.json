@@ -12,7 +12,8 @@
    "allowedLocations": {
     "value": [
      "canadacentral",
-     "canadaeast"
+     "canadaeast",
+     "canada"
     ]
    }
   },
