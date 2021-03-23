@@ -1,0 +1,38 @@
+{
+ "properties": {
+  "displayName": "Alllowed locations - Manpreet",
+  "policyType": "Custom",
+  "mode": "All",
+  "metadata": {
+   "category": "General",
+   "createdBy": "e25ea5b1-99dd-4219-9d8b-39b9e115c8c0",
+   "createdOn": "2021-03-23T15:51:07.84085Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {
+   "allowedLocations": {
+    "type": "Array",
+    "metadata": {
+     "displayName": "Allowed locations",
+     "description": "The list of allowed locations for resources.",
+     "strongType": "location"
+    }
+   }
+  },
+  "policyRule": {
+   "if": {
+    "not": {
+     "field": "location",
+     "in": "[parameters('allowedLocations')]"
+    }
+   },
+   "then": {
+    "effect": "audit"
+   }
+  }
+ },
+ "id": "/providers/Microsoft.Management/managementGroups/Manpreet4664/providers/Microsoft.Authorization/policyDefinitions/5da5e0be-a469-47ff-8bbb-161f0115cbcb",
+ "type": "Microsoft.Authorization/policyDefinitions",
+ "name": "5da5e0be-a469-47ff-8bbb-161f0115cbcb"
+}
