@@ -1,0 +1,40 @@
+{
+ "sku": {
+  "name": "A0",
+  "tier": "Free"
+ },
+ "properties": {
+  "displayName": "Allowed Locations - Manpreet",
+  "policyDefinitionId": "/subscriptions/2377a498-22d6-4ec9-b16d-ed76208a9c51/providers/Microsoft.Authorization/policyDefinitions/c9c6d1f2-a659-4f1f-8767-c97b444b3bcd",
+  "scope": "/subscriptions/2377a498-22d6-4ec9-b16d-ed76208a9c51/resourceGroups/rg-prd-manpreet-001",
+  "notScopes": [],
+  "parameters": {
+   "allowedLocations": {
+    "value": [
+     "canadacentral",
+     "canadaeast"
+    ]
+   }
+  },
+  "metadata": {
+   "assignedBy": "Manpreet Singh",
+   "parameterScopes": {
+    "allowedLocations": "/subscriptions/2377a498-22d6-4ec9-b16d-ed76208a9c51/resourceGroups/rg-prd-manpreet-001"
+   },
+   "createdBy": "e25ea5b1-99dd-4219-9d8b-39b9e115c8c0",
+   "createdOn": "2021-03-23T15:12:19.1683855Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "enforcementMode": "Default"
+ },
+ "identity": {
+  "principalId": "b4b1bd6e-a429-4984-9098-c2ac98d1fa6a",
+  "tenantId": "f91f6951-870f-4825-99d2-9d80b73ca1aa",
+  "type": "SystemAssigned"
+ },
+ "id": "/subscriptions/2377a498-22d6-4ec9-b16d-ed76208a9c51/resourceGroups/rg-prd-manpreet-001/providers/Microsoft.Authorization/policyAssignments/20a896d6308442c2a7bfc87f",
+ "type": "Microsoft.Authorization/policyAssignments",
+ "name": "20a896d6308442c2a7bfc87f",
+ "location": "canadacentral"
+}
