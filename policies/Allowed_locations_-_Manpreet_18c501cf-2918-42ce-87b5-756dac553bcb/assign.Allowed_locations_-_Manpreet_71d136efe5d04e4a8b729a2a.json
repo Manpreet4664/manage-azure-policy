@@ -11,7 +11,8 @@
   "parameters": {
    "allowedLocations": {
     "value": [
-     "canada"
+     "canada",
+     "canadacentral"
     ]
    }
   },
