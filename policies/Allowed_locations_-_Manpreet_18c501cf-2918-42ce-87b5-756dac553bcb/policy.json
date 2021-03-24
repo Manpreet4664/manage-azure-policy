@@ -8,7 +8,8 @@
    "createdBy": "e25ea5b1-99dd-4219-9d8b-39b9e115c8c0",
    "createdOn": "2021-03-23T14:36:32.282112Z",
    "updatedBy": null,
-   "updatedOn": null
+   "updatedOn": null,
+   "version": "1.0.0"
   },
   "parameters": {
    "allowedLocations": {
